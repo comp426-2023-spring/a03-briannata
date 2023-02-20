@@ -57,7 +57,6 @@ if(args._.length == 0) {
 
 let result = rpsls(args._[0]);
 if(result == undefined) {
-  console.log("Please try 'rock', 'paper', 'scissors', 'lizard', or 'spock'.");
   console.log(`Usage: node-rpsls [SHOT]
     Play the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!
     
