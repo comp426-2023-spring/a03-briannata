@@ -58,19 +58,20 @@ if(args._.length == 0) {
 let result = rpsls(args._[0]);
 if(result == undefined) {
   console.error("Invalid argument. Please try 'rock', 'paper', 'scissors', 'lizard', or 'spock'.");
-  console.log(`Rules for the Lizard-Spock Espansion of Rock Paper Scissors:
-
-- Scissors CUTS Paper
-- Paper COVERS Rock
-- Rock SMOOSHES Lizard
-- Lizard POISONS Spock
-- Spock SMASHES Scissors
-- Scissors DECAPITATES Lizard
-- Lizard EATS Paper
-- Paper DISPROVES Spock
-- Spock VAPORIZES Rock
-- Rock CRUSHES Scissors
-    `);
+  console.log(
+    `Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
+    - Scissors CUTS Paper
+    - Paper COVERS Rock
+    - Rock SMOOSHES Lizard
+    - Lizard POISONS Spock
+    - Spock SMASHES Scissors
+    - Scissors DECAPITATES Lizard
+    - Lizard EATS Paper
+    - Paper DISPROVES Spock
+    - Spock VAPORIZES Rock
+    - Rock CRUSHES Scissors                    
+    `
+            );
     process.exit(0);
 } else {
   console.log(JSON.stringify(result));
