@@ -41,7 +41,7 @@ if (args.r) {
 // if there is no argument, call the rpsls method with no argument and print that
 
 if(args._.length == 0) {
-  console.log(rps());
+  console.log(JSON.stringify(rps()));
   process.exit(0);
 }
 
@@ -71,6 +71,6 @@ if(result == undefined) {
     `);
     process.exit(0);
 } else {
-  console.log(result);
+  console.log(JSON.stringify(result));
   process.exit(0);
 }
