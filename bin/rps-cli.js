@@ -1,6 +1,6 @@
 // rps game cli
 import minimist from "minimist";
-import { rps } from "../lib/rpsls.js"
+import { rps } from 'node-rpsls'
 
 // get command line arguments
 

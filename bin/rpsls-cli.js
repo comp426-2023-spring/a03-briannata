@@ -1,6 +1,6 @@
 // rpsls cli file
 import minimist from "minimist";
-import { rpsls } from "../lib/rpsls.js"
+import { rpsls } from 'node-rpsls'
 
 // get command line arguments
 
