@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // rpsls cli file
 import minimist from "minimist";
 import { rpsls } from 'node-rpsls'
