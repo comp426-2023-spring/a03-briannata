@@ -23,6 +23,8 @@ if (args.h){
     process.exit(0);
 }
 
+// if -r, print rules
+
 if (args.r) {
     console.log(`Rules for the Lizard-Spock Espansion of Rock Paper Scissors:
 
@@ -40,10 +42,15 @@ if (args.r) {
     process.exit(0);
 }
 
+// if there is no argument, call the rpsls method with no argument and print that
+
 if(args._.length == 0) {
   console.log(rpsls());
   process.exit(0);
 }
+
+// else, get the result
+// if the result is undefined (argument is not valid), then print the rules and help messages
 
 let result = rpsls(args._[0]);
 if(result == undefined) {
