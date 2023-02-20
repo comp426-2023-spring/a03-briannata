@@ -50,7 +50,7 @@ if(args._.length == 0) {
 
 let result = rps(args._[0]);
 if(result == undefined) {
-  console.log("Please try 'rock', 'paper', or 'scissors'.");
+  console.error("Invalid argument. Please try 'rock', 'paper', or 'scissors'.");
   console.log(`Usage: node-rps [SHOT]
     Play Rock Paper Scissors (RPS)
     
